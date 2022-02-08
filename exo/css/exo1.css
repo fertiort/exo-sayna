@@ -143,3 +143,39 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+.content-localisation{
+    margin-left: 20px;
+}
+.localisation{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.title-localisation{
+    font-family: "Courgette", sans-serif;
+    color: #C55394;
+    font-size: 0.9em;
+    margin: 15px 0px;
+}
+.content-txt-localisation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+.txt1{
+    margin-bottom: 35px;
+}
+.btn{
+    background-color: #EB43A3;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.local-input{
+    margin: 15px 0px;
+}
+.form-txt{
+    padding: 7px;
+}
