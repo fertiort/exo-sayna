@@ -1,0 +1,54 @@
+@font-face{
+    font-family: "Courgette";
+    src: url("../../src/Courgette-Regular.ttf");
+}
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #C55394;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+}
+.ico-logo{
+    font-family: "Courgette", cursive;
+    margin-left: 2%;
+    font-size: 1.5em;
+}
+nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.7em;
+    font-family: Arial, sans-serif;
+    
+}
+
+nav a:hover{
+    background-color: #EB43A3;
+}
+
+footer{
+    background-color: #E577B5;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1%;
+}
