@@ -123,7 +123,11 @@ footer{
     height: 225px;
     background-color: red;
     position: relative;
-
+    transition: transform .1s;
+}
+.liste-licorne:hover {
+    transform: scale(1.2);
+    
 }
 
 .txt-liste-licorne, .liste-licorne img{
@@ -132,7 +136,8 @@ footer{
 .liste-licorne img{
     width: 100%;
 }
-.txt-liste-licorne{
+
+.txt-liste-licorne, .liste-licorne:hover .txt-liste-licorne{
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;

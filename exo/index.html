@@ -14,9 +14,9 @@
             MyUnicorn
         </div>
         <nav class="nav">
-            <a href="">LE PRINCIPE</a>
-            <a href="">NOS LICORNES</a>
-            <a href="">NOUS TROUVER</a>
+            <a href="#principe">LE PRINCIPE</a>
+            <a href="#noslicornes">NOS LICORNES</a>
+            <a href="#trouver">NOUS TROUVER</a>
         </nav>
     </header>
 
@@ -29,7 +29,7 @@
                  
             </div>
             <div class="content-content">
-                <div class="txt-title">
+                <div id="principe" class="txt-title">
                     <h1> <i class="fa fa-star-o" aria-hidden="true"></i>  Le principe </h1>
                     
                 </div>
@@ -42,38 +42,51 @@
 
                 </div>
 
-                <div class="txt-title">
+                <div id="noslicornes" class="txt-title">
                     <h1> <i class="fa fa-star-o" aria-hidden="true"></i>  Nos licornes </h1>
                     
                 </div>
                 <div class="noslicornes">
                     <div class="liste-licorne">
-                        <div class="txt-liste-licorne">
-                            Lulu Confetty
-                        </div>
-                        <img src="../src/img/unicorns/photo1.jpg" alt="licorne">
+                        
+                        <figure>
+                            <img src="../src/img/unicorns/photo1.jpg" alt="licorne">
+                            <figcaption class="txt-liste-licorne">
+                                Lulu Confetty
+                            </figcaption>
+                        </figure>
+                        
                     </div>
                     <div class="liste-licorne">
-                        <div class="txt-liste-licorne">
-                            Lapillon Magik
-                        </div>
-                        <img src="../src/img/unicorns/photo2.jpg" alt="licorne">
+                        <figure>
+                            <img src="../src/img/unicorns/photo2.jpg" alt="licorne">
+                            <figcaption class="txt-liste-licorne">
+                                Lapillon Magik
+                            </figcaption>
+                        </figure>
+                        
                     </div>
                     <div class="liste-licorne">
-                        <div class="txt-liste-licorne">
-                            El Ninjacorn
-                        </div>
-                        <img src="../src/img/unicorns/photo3.jpg" alt="licorne">
+                        <figure>
+                            <img src="../src/img/unicorns/photo3.jpg" alt="licorne">
+                            <figcaption class="txt-liste-licorne">
+                                El Ninjacorn
+                            </figcaption>
+                        </figure>
+                        
                     </div>
                     <div class="liste-licorne">
-                        <div class="txt-liste-licorne">
-                            Sweety Candy
-                        </div>
-                        <img src="../src/img/unicorns/photo4.jpg" alt="licorne">
+                        <figure>
+                            <img src="../src/img/unicorns/photo4.jpg" alt="licorne">
+                            <figcaption class="txt-liste-licorne">
+                                Sweety Candy
+                            </figcaption>
+                        </figure>
+                        
                     </div>
                 </div>
 
-                <div class="txt-title">
+                <div id="trouver" class="txt-title">
                     <h1> <i class="fa fa-star-o" aria-hidden="true"></i>  Nous trouver </h1>
                     
                 </div>
@@ -91,7 +104,7 @@
                         <div class="title-localisation">Newsletter</div>
                         <div class="content-txt-localisation txt1">
                             Abonnez-vous simplement à notre newsletter mensuelle !
-                            <form action="" method="get">
+                            <form action="newsletter.php" method="get">
                                 <div class="content-local-input local-input">
                                     <input type="email" class="form-txt" name="" placeholder="votre@mail.fr" id=""> 
                                 </div>
