@@ -1,12 +1,18 @@
+/* css de l'execrice */
+
+/* initialisation du font */
 @font-face{
     font-family: "Courgette";
     src: url("../../src/Courgette-Regular.ttf");
 }
+
+/* generaliser le margin à 0 pour éviter la marge par défat et la police du main de la page */
 *{
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/* configuration du header de la page */
 header{
     background-color: #C55394;
     color: #fff;
@@ -16,17 +22,19 @@ header{
     justify-content: space-between;
     height: 60px;
 }
+/* conifuration du logo texte dans l'en tête */
 .ico-logo{
     font-family: "Courgette", cursive;
     margin-left: 2%;
     font-size: 1.5em;
 }
+/* configuration des menu de navigation */
 nav{
     height: 100%;
     display: flex;
     flex-direction: row;
 }
-
+/* configuration des contenu des menu de navigation */
 nav a{
     padding-left: 15px;
     padding-right: 15px;
@@ -39,11 +47,12 @@ nav a{
     font-family: Arial, sans-serif;
     
 }
-
+/* effet de survol */
 nav a:hover{
     background-color: #EB43A3;
 }
 
+/* configuration du footer */
 footer{
     background-color: #E577B5;
     color: #fff;
@@ -55,6 +64,7 @@ footer{
     font-size: 0.7em;
 }
 
+/* configuration de l'image de fond du corps de la page */
 .body{
     background-image: url("../../src/img/background.png");
 }
@@ -63,7 +73,7 @@ footer{
     width: 80%;
     margin: auto;
 }
-
+/* configuration du grand titre du contenu */
 .title h1{
     color: #C55394;
     font-family: "Courgette", cursive;
@@ -77,6 +87,7 @@ footer{
     padding-top: 50px;
 }
 
+/* configuration de l'image fond rainbow du grand titre */
 .background-title{
     height: 125px;
     width: 45%;
@@ -98,6 +109,8 @@ footer{
     margin-bottom: 50px;
 }
 
+
+/* configuration des titre de la page */
 .txt-title{
     color: #EB43A3;
     margin-top: 50px;
@@ -112,7 +125,7 @@ footer{
     font-size: 0.8em;
     margin-top: 20px;
 }
-
+/* configuration des liste des produit */
 .noslicornes{
     display: flex;
     justify-content: space-around;
@@ -125,11 +138,12 @@ footer{
     position: relative;
     transition: transform .1s;
 }
+/* effet zoom a chaque selection d'un produit */
 .liste-licorne:hover {
     transform: scale(1.2);
     
 }
-
+/* mettre en arrière plan l'image du produit */
 .txt-liste-licorne, .liste-licorne img{
     position: absolute;
 }
@@ -137,6 +151,7 @@ footer{
     width: 100%;
 }
 
+/* priorité d'affichage */
 .txt-liste-licorne, .liste-licorne:hover .txt-liste-licorne{
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.7);
@@ -149,6 +164,7 @@ footer{
     justify-content: center;
 }
 
+/* configuration du contenu droit de la localisation */
 .content-localisation{
     margin-left: 20px;
 }
@@ -171,6 +187,7 @@ footer{
 .txt1{
     margin-bottom: 35px;
 }
+/* configuration du boutton */
 .btn{
     background-color: #EB43A3;
     border: none;
